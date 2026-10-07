@@ -1,0 +1,38 @@
+body {
+  background: #f7f8fa;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.product-card {
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.product-img {
+  height: 190px;
+  object-fit: cover;
+}
+
+.hero {
+  background: #212529;
+  color: white;
+  border-radius: 16px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.loading {
+  min-height: 160px;
+  display: grid;
+  place-items: center;
+}
